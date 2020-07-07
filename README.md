@@ -36,6 +36,12 @@ cd gnome-terminal-colors-solarized
 
 
 ## VIM
+### Vundle
+先克隆Vundle插件到本地：
+```shell
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+再配置vimrc👇
 ### vimrc 配置
 ```
 " Theme settings
