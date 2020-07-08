@@ -100,6 +100,14 @@ filetype plugin indent on    " 这是必需的
 " Put your non-Plugin stuff after this line
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"括号自动补全
+inoremap ' ''<ESC>i
+inoremap " ""<ESC>i
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+"花括号自动缩进
+inoremap { {<CR>}<ESC>O
+
 " Plugin settings
 " NERDTree setting
 let NERDTreeShowHidden=1
