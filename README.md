@@ -1,4 +1,4 @@
-# Terminal_Vim_Theme
+# Vim theme
 Theme set up for terminal and vim
 
 ## Terminal
